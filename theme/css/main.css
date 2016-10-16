@@ -4088,24 +4088,24 @@ body {
 }
 
 .top {
-  background-image: url("/theme/imgs/health-fair.jpeg");
+  background-image: url("{{SITEURL}}/theme/imgs/health-fair.jpeg");
   height: 100%;
 }
 
 .me {
   background-position: right;
   background-size: contain;
-  background-image: url("/theme/imgs/bio.jpg");
+  background-image: url("{{SITEURL}}/theme/imgs/bio.jpg");
 }
 
 .listening {
   height: 100%;
-  background-image: url("/theme/imgs/stethoscope.jpg");
+  background-image: url("{{SITEURL}}/theme/imgs/stethoscope.jpg");
 }
 
 .pressure {
   height: 100%;
-  background-image: url("/theme/imgs/cat.jpg");
+  background-image: url("{{SITEURL}}/theme/imgs/cat.jpg");
 }
 
 .main-header {
