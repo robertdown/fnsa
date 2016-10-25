@@ -13,7 +13,7 @@ var gulp = require('gulp'),
     del = require('del');
 
 gulp.task('styles', function () {
-    return sass('sass/main.scss', {
+    return sass('sass/**/*.scss', {
         style: 'expanded',
         loadPath: [
             'bower_components/bootstrap-sass/assets/stylesheets/'
@@ -28,7 +28,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('clean', function () {
-    return del(['dist/assets/css', 'dist/assets/js', 'dist/assets/img']);
+    return del(['theme/static/css', 'theme/static/js', 'theme/static/img']);
 });
 
 gulp.task('default', ['clean'], function () {

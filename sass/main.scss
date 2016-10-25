@@ -1,7 +1,7 @@
 @import 'bootstrap-custom';
 @import 'variables';
 @import 'mixins';
-@import 'https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:300';
+@import 'https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:300|Archivo+Narrow:700';
 
 html {
     height: 100%;
@@ -26,7 +26,7 @@ body {
 
 .top {
     @extend .parallax;
-    background-image: url("/theme/imgs/health-fair.jpeg");
+    background-image: url("../imgs/health-fair.jpg");
     height: 100%;
 }
 
@@ -34,17 +34,17 @@ body {
     @extend .parallax;
     background-position: right;
     background-size: contain;
-    background-image: url("/theme/imgs/bio.jpg");
+    background-image: url("../imgs/bio.jpg");
 }
 
 .listening {
     height: 100%;
-    background-image: url("/theme/imgs/stethoscope.jpg");
+    background-image: url("../imgs/stethoscope.jpg");
 }
 
 .pressure {
     height: 100%;
-    background-image: url("/theme/imgs/cat.jpg");
+    background-image: url("../imgs/cat.jpg");
 }
 
 .main-header {
@@ -56,13 +56,13 @@ body {
 
     header {
         display: inline-block;
-        background: rgba(255,255,255,0.9);
+        background: rgba(0,0,0,0.15);
     }
 
     h1.name {
-        font-family: 'Six Caps';
-        font-size: 6em;
-        text-transform: uppercase;
+        font-family: 'Adobe Garamond Pro', Garamond;
+        font-size: 135px;
+        padding: 0px 35px;
 
         a, a:visited, a:hover {
             text-decoration: none;
@@ -71,6 +71,11 @@ body {
     }
     
     .nav-pills {
+        font-size: 34px;
+        a {
+            color: $white;
+        }
+        
         a:hover {
             background-color: $brand-secondary;
             color: $white;
@@ -103,7 +108,7 @@ footer {
 
 .nav {
     li {
-        background-color: rgba(255,255,255,0.9);
+        background-color: rgba(0,0,0,0.15);
         border-radius: 3px;
         margin: 10px 0px;
 
@@ -113,6 +118,38 @@ footer {
     }
 }
 
+.arc-red {
+    // background: #ED1B2E;
+    @include gradient-vertical(#ED182E, darken(#ED182E, 10%));
+    color: #fff;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.openemr {
+    @include gradient-vertical($brand-secondary, darken($brand-secondary, 10%));
+    color: #fff;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.arc-red, .newman, .openemr {
+    .col-md-5, .col-md-2 {
+        padding-left: 0;
+    }
+    .col-md-6 {
+        padding-right: 0;
+    }
+}
+
+.newman {
+    // background: #ED1B2E;
+    @include gradient-vertical($brand-primary, darken($brand-primary, 2%));
+    color: $white;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
 .block-section {
     @extend .container-fluid;
     padding: 0px;
@@ -120,9 +157,20 @@ footer {
     margin-right: 0px;
     // margin-top: 150px;
 
-    img {
-        border: 4px solid $white;
-        padding: 4px;
+    header {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cline stroke='%23000000' x1='0' y1='55' x2='100' y2='55' stroke-miterlimit='1' /%3E%3C/svg%3E");
+        // background-repeat: no-repeat;
+        background-position: center;
+        h1 {
+            display: inline-block;
+            background-color: $white;
+            border: 1px solid #000000;
+            font-family: 'Helvetica Neue', Helvetica, sans-serif;
+            font-weight: 200;
+            color: $gray-base;
+            letter-spacing: 0.2em;
+            padding: 15px 25px;
+        }
     }
 
     &:before,
