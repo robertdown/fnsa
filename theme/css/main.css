@@ -4478,7 +4478,7 @@ body {
 }
 
 .top {
-  background-image: url("../imgs/health-fair.jpeg");
+  background-image: url("../imgs/health-fair.jpg");
   height: 100%;
 }
 
@@ -4505,15 +4505,21 @@ body {
 }
 .main-header header {
   display: inline-block;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(0, 0, 0, 0.15);
 }
 .main-header h1.name {
-  font-family: 'Six Caps';
-  font-size: 6em;
-  text-transform: uppercase;
+  font-family: 'Adobe Garamond Pro', Garamond;
+  font-size: 135px;
+  padding: 0px 35px;
 }
 .main-header h1.name a, .main-header h1.name a:visited, .main-header h1.name a:hover {
   text-decoration: none;
+  color: #fff;
+}
+.main-header .nav-pills {
+  font-size: 34px;
+}
+.main-header .nav-pills a {
   color: #fff;
 }
 .main-header .nav-pills a:hover {
@@ -4541,7 +4547,7 @@ footer:before {
 }
 
 .nav li {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.15);
   border-radius: 3px;
   margin: 10px 0px;
 }
