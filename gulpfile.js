@@ -16,7 +16,8 @@ gulp.task('styles', function () {
     return sass('sass/**/*.scss', {
         style: 'expanded',
         loadPath: [
-            'bower_components/bootstrap-sass/assets/stylesheets/'
+            'bower_components/bootstrap-sass/assets/stylesheets/',
+            'bower_components/materialize/sass/'
         ]
     })
         .pipe(autoprefixer('last 2 version'))
