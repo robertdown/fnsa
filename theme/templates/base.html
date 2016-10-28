@@ -6,31 +6,43 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" sizes="57x57" href="{{SITEURL}}/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="{{SITEURL}}/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{SITEURL}}/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="{{SITEURL}}/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{SITEURL}}/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="{{SITEURL}}/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{SITEURL}}/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="{{SITEURL}}/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{SITEURL}}/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="{{SITEURL}}/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{SITEURL}}/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{SITEURL}}/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{SITEURL}}/favicon-16x16.png">
-    <link rel="manifest" href="{{SITEURL}}/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{SITEURL}}/theme/imgs/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="{{SITEURL}}/theme/imgs/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{SITEURL}}/theme/imgs/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{SITEURL}}/theme/imgs/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{SITEURL}}/theme/imgs/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{SITEURL}}/theme/imgs/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{SITEURL}}/theme/imgs/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{SITEURL}}/theme/imgs/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{SITEURL}}/theme/imgs/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="{{SITEURL}}/theme/imgs/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{SITEURL}}/theme/imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="{{SITEURL}}/theme/imgs/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{SITEURL}}/theme/imgs/favicon-16x16.png">
+    <link rel="manifest" href="{{SITEURL}}/theme/imgs/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="{{SITEURL}}/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="{{SITEURL}}/theme/imgs/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
+    <meta name="og:url" content="http://bit.ly/prez-down">
+    <meta name="og:title" content="Robert Down FNSA President">
+    <meta name="og:image" content="https://robertdown.github.io/fnsa/theme/imgs/share.jpg">
+    <meta name="og:image:width" content="1200">
+    <meta name="og:image:height" content="630">
+    <meta name="description" content="My name is Robert Down and I am running for FNSA President. I am a 28-year old, junior nursing student with a passion for helping others and a drive for excellence in all that I do. Allow me to tell you a bit about myself, and why I am running for president.">
     <link href="{{SITEURL}}/theme/css/main.css" type="text/css" rel="stylesheet"/>
-    <script src="https://use.fontawesome.com/6cbc101d73.js"></script>
+    <script src="//use.fontawesome.com/6cbc101d73.js"></script>
 
-    <!-- Compiled and minified JavaScript -->
-    <script type="text/javascript" src="{{SITEURL}}/theme/js/jquery-2.1.1.min.js"></script>
-    <script src="{{SITEURL}}/theme/js/materialize.min.js"></script>
-            
+
+     <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+<script
+			  src="//code.jquery.com/jquery-2.2.4.js"
+			  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+			  crossorigin="anonymous"></script>
+		
+  <!-- Compiled and minified JavaScript -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+    
 {% endblock head %}
 </head>
 <body id="index" class="home">
@@ -39,19 +51,25 @@
     <div class="section no-pad-bot">
         <div class="">
             <div class="row">
-                <div class="col s12">
-                    <h1 class="right">Robert Down</h1>
+                <div class="col s12 m4 offset-m6 text-right">
+                    <h2 class="name">Robert Down</h2>
+                    <img src="{{SITEURL}}/theme/imgs/slogan.png" alt="" class="responsive-img">
+                    <div class="text-right">
+                        <a href="#me" class="main-link">Me, Explained <i class="fa fa-user fa-lg fa-fw"></i> </a><br/>
+                        <a href="#qualifications" class="main-link">My Qualifications <i class="fa fa-star fa-lg fa-fw"></i> </a><br/>
+                        <a href="#plan" class="main-link">My Plan <i class="fa fa-arrow-right fa-lg fa-fw"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="parallax">
-        <img src="{{SITEURL}}/theme/imgs/health-fair.jpg" alt="">
+        <img src="{{SITEURL}}/theme/imgs/header.jpg" alt="">
     </div>
 </div>
 
 <div class="row block-section">
-        <header class="col s12 center"><h1 class="text-right" id="me">Me, explained.</h1></header>
+    <h1 class="text-center" id="me">Me, explained</h1>
     <div class="col s12 m4 offset-m2">
         <p>My name is Robert Down and I am running for FNSA President. I am a 28-year old, junior nursing student
             with a passion for helping others and a drive for excellence in all that I do. Allow me to tell you a bit
@@ -90,32 +108,26 @@
 
 <div class="parallax-container">
     <div class="parallax">
-        <img src="{{SITEURL}}/theme/imgs/advocacy.jpg" alt="">
+        <img src="{{SITEURL}}/theme/imgs/swing.jpg" alt="">
     </div>
 </div>
 
-
-
-<div class="block-section">
-<header class="col s12 text-center" style="margin-bottom: 75px">
-    <h1>Characteristics of a leader</h1>
-</header>
-
-<div class="row">
-    <div class="col s12 m4 offset-m2">
+<div class="block-section row" id="qualifications">
+    <h1 class="text-center">Characteristics of a leader</h1>
+    <div class="row">
+    <div class="col s12 m5 offset-m1">
         <div class="card arc-red">
             <div class="card-image">
                 <img src="{{SITEURL}}/theme/imgs/arc.jpg" class="responsive-img">
-                <span class="card-title"><img src="{{SITEURL}}/theme/imgs/arc-inverse.png" alt="" class="responsive-img"></span>
             </div>
             <div class="card-content">
-                <p>I am writing to express my wholehearted support for Robert Down’s application to the position of President of the Florida Nursing Student Association. As Robert’s direct supervisor at the American Red Cross, I have had the privilege of witnessing his compassion, dedication, and true belief in the mission of the American Red Cross. I have been impressed with his initiative in taking on roles with increasing responsibility, his work ethic and desire to assist in any manner he is able to, and his ability to remain positive regardless of the situation. Robert has become a valued leader within the American Red Cross Disaster Action Team, and I’m confident that he would bring his many skills and infectious positivity with him to the position as President of the Florida Nursing Student Association.<br/>
-                <strong class="right">Kelsie Davis</strong><br/><em class="right">Disaster Program Manager, American Red Cross</em></p>
-                <br/>&nbsp;
+                <img src="{{SITEURL}}/theme/imgs/arc-inverse.png" alt="" class="responsive-img">
+                <p>I am writing to express my wholehearted support for Robert Down’s application to the position of President of the Florida Nursing Student Association. As Robert’s direct supervisor at the American Red Cross, I have had the privilege of witnessing his compassion, dedication, and true belief in the mission of the American Red Cross. I have been impressed with his initiative in taking on roles with increasing responsibility, his work ethic and desire to assist in any manner he is able to, and his ability to remain positive regardless of the situation. Robert has become a valued leader within the American Red Cross Disaster Action Team, and I’m confident that he would bring his many skills and infectious positivity with him to the position as President of the Florida Nursing Student Association.</p>
+                <p class="text-right"><strong>Kelsie Davis</strong><br/><em>Disaster Program Manager, American Red Cross</em></p>
             </div>
         </div>
     </div>
-    <div class="col s12 m4">
+    <div class="col s12 m5">
         <div class="card newman">
             <div class="card-image">
                 <img src="{{SITEURL}}/theme/imgs/newman-accept.jpg" class="responsive-img">
@@ -123,8 +135,10 @@
             <div class="card-content ">
                 <img src="{{SITEURL}}/theme/imgs/newman-temp.png" alt="" class="responsive-img">
                 <p>The Newman Civic Fellowship recognizes and supports community-committed students who have demonstrated an investment in finding solutions for challenges facing communities throughout the country. <a href="http://compact.org/newman-civic-fellow/robert-down/">Read More</a></p>
-                <p>Robert is a committed leader. He responds to needs he sees in others and collaborates on ways to improve quality of life. His dedication to action and advocacy to serve the most vulnerable populations render him an exemplary candidate for the Newman Civic Fellows Award.
-                    <br/><strong class="right">Dr. David Greenlaw</strong><br/><em class="right">President, Adventist University of Health Sciences</em>
+                <p>Robert is a committed leader. He responds to needs he sees in others and collaborates on ways to improve quality of life. His dedication to action and advocacy to serve the most vulnerable populations render him an exemplary candidate for the Newman Civic Fellows Award.</p>
+                <p class="text-right">
+                    <strong>Dr. David Greenlaw</strong><br>
+                    <em class="right">President, Adventist&nbsp;University of&nbsp;Health Sciences</em>
                 </p>
                 <p>&nbsp;</p>
             </div>
@@ -141,51 +155,31 @@
                     </div>
                     <div class="s12">
                         <p>OpenEMR is a free and open source electronic medical record software project. Robert has been a volunteer on the project since 2012. His contributions to the project are numerous and have included project administration, website administration, and code development. More recently, he has been instrumental in organizing a group effort to modernize OpenEMR's user interface, logo, and website.</p>
-<br/>
-<p>The OEMR organization is a non-profit organization which supports the OpenEMR software project. Robert Down has been a Board Member of this organization since January of 2016 and has been an Officer of the Board (Secretary) since April of 2016. As an officer, he has been responsible for OEMR Board communications, mangement of corporation records, and recording of meetings. More recently, he has been organizing an effort to apply for grants.</p>
-<br/>
-<p class="right">Robert Down has been instrumental for both the OpenEMR software project and the OEMR non-profit organization. He has demonstrated leadership along with an ability to successfully manage and work in team environments with individuals of very different backgrounds.</p>
-<strong>Brady Miller</strong><br/>
-<em>Executive Director, OEMR Organization</em>
-</p>
+                        <br/>
+                        <p>The OEMR organization is a non-profit organization which supports the OpenEMR software project. Robert Down has been a Board Member of this organization since January of 2016 and has been an Officer of the Board (Secretary) since April of 2016. As an officer, he has been responsible for OEMR Board communications, mangement of corporation records, and recording of meetings. More recently, he has been organizing an effort to apply for grants.</p>
+                        <br/>
+                        <p>Robert Down has been instrumental for both the OpenEMR software project and the OEMR non-profit organization. He has demonstrated leadership along with an ability to successfully manage and work in team environments with individuals of very different backgrounds.</p>
+                        <p class="text-right">
+                            <strong>Brady Miller</strong><br/>
+                            <em>Executive Director, OEMR Organization</em>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-
-    <div class="main-header hidden">
-        <div class="container-fluid">
-            <div class="col-xs-12">
-                <header class="pull-right">
-                    <h1 class="name">Robert Down</h1>
-                </header>
-            </div>
-            <div class="col-xs-12" style="margin-top: 10px;">
-                <header class="pull-right">
-                    <img src="{{SITEURL}}/theme/imgs/slogan.png" class="img-responsive" alt="">
-                </header>
-            </div>
-            <nav class="col-xs-12 col-md-12">
-                <ul class="nav nav-pills pull-right">
-                    <li role="presentation"><a href="#me"><i class="fa fa-fw fa-user"></i>&nbsp;Me, explained.</a></li>
-                    <li role="presentation"><a href="#qualifications"><i class="fa fa-fw fa-star"></i>&nbsp;Qualifications</a></li>
-                    <li role="presentation"><a href="#platform"><i class="fa fa-fw fa-book"></i>&nbsp;Platform</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    
-    <script>
-        $(document).ready(function(){
-            $('.parallax').parallax();
-        });
-    </script>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.parallax').parallax();
+    });
+</script>
     {% block content %} {% endblock %}
-    <footer>
-        Footer here
+    <footer class="row" style="margin-bottom:0;padding-bottom:20px;">
+        <p class="col s12 text-center">
+            Robert Down, 2016 FNSA Presidential Candidate | Standing for Excellence
+        </p>
     </footer>
 </body>
 </html>
