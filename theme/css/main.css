@@ -4598,21 +4598,14 @@ footer {
 }
 .block-section header {
   position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   top: -70px;
 }
-.block-section header h1 {
-  display: inline-block;
-  background-color: #fff;
-  border: 1px solid #000000;
+.block-section h1 {
+  font-size: 2.125em;
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 200;
-  color: #000;
-  letter-spacing: 0.2em;
-  padding: 15px 25px;
-}
-.block-section h1 {
-  color: #4D91CD;
-  font-size: 2.25em;
-  font-family: 'Archivo Narrow';
   text-transform: uppercase;
 }
