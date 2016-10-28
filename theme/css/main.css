@@ -4583,13 +4583,6 @@ footer {
   margin-bottom: 35px;
 }
 
-.arc-red .col-md-5, .arc-red .col-md-2, .newman .col-md-5, .newman .col-md-2, .openemr .col-md-5, .openemr .col-md-2 {
-  padding-left: 0;
-}
-.arc-red .col-md-6, .newman .col-md-6, .openemr .col-md-6 {
-  padding-right: 0;
-}
-
 .newman {
   background-image: linear-gradient(to bottom, #005596 0%, #004f8c 100%);
   background-repeat: repeat-x;
@@ -4606,8 +4599,6 @@ footer {
 .block-section header {
   position: relative;
   top: -70px;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cline stroke='%23000000' x1='0' y1='55' x2='100' y2='55' stroke-miterlimit='1' /%3E%3C/svg%3E");
-  background-position: center;
 }
 .block-section header h1 {
   display: inline-block;
