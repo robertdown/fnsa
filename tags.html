@@ -31,6 +31,7 @@
     <link href="./theme/css/main.css" type="text/css" rel="stylesheet"/>
     <script src="//use.fontawesome.com/6cbc101d73.js"></script>
 
+
      <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 <script
@@ -48,9 +49,14 @@
     <div class="section no-pad-bot">
         <div class="">
             <div class="row">
-                <div class="col s12 m8 offset-m4 text-right">
+                <div class="col s12 m4 offset-m6 text-right">
                     <h2 class="name">Robert Down</h2>
                     <img src="./theme/imgs/slogan.png" alt="" class="responsive-img">
+                    <div class="text-right">
+                        <a href="#me" class="main-link">Me, Explained <i class="fa fa-user fa-lg fa-fw"></i> </a><br/>
+                        <a href="#qualifications" class="main-link">My Qualifications <i class="fa fa-star fa-lg fa-fw"></i> </a><br/>
+                        <a href="#plan" class="main-link">My Plan <i class="fa fa-arrow-right fa-lg fa-fw"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -61,7 +67,7 @@
 </div>
 
 <div class="row block-section">
-    <h1 class="text-right" id="me">Me, explained</h1>
+    <h1 class="text-center" id="me">Me, explained</h1>
     <div class="col s12 m4 offset-m2">
         <p>My name is Robert Down and I am running for FNSA President. I am a 28-year old, junior nursing student
             with a passion for helping others and a drive for excellence in all that I do. Allow me to tell you a bit
@@ -100,26 +106,26 @@
 
 <div class="parallax-container">
     <div class="parallax">
-        <img src="./theme/imgs/advocacy.jpg" alt="">
+        <img src="./theme/imgs/swing.jpg" alt="">
     </div>
 </div>
 
-<div class="block-section row">
+<div class="block-section row" id="qualifications">
     <h1 class="text-center">Characteristics of a leader</h1>
     <div class="row">
-    <div class="col s12 m4 offset-m2">
+    <div class="col s12 m5 offset-m1">
         <div class="card arc-red">
             <div class="card-image">
                 <img src="./theme/imgs/arc.jpg" class="responsive-img">
-                <span class="card-title"><img src="./theme/imgs/arc-inverse.png" alt="" class="responsive-img"></span>
             </div>
             <div class="card-content">
+                <img src="./theme/imgs/arc-inverse.png" alt="" class="responsive-img">
                 <p>I am writing to express my wholehearted support for Robert Down’s application to the position of President of the Florida Nursing Student Association. As Robert’s direct supervisor at the American Red Cross, I have had the privilege of witnessing his compassion, dedication, and true belief in the mission of the American Red Cross. I have been impressed with his initiative in taking on roles with increasing responsibility, his work ethic and desire to assist in any manner he is able to, and his ability to remain positive regardless of the situation. Robert has become a valued leader within the American Red Cross Disaster Action Team, and I’m confident that he would bring his many skills and infectious positivity with him to the position as President of the Florida Nursing Student Association.</p>
                 <p class="text-right"><strong>Kelsie Davis</strong><br/><em>Disaster Program Manager, American Red Cross</em></p>
             </div>
         </div>
     </div>
-    <div class="col s12 m4">
+    <div class="col s12 m5">
         <div class="card newman">
             <div class="card-image">
                 <img src="./theme/imgs/newman-accept.jpg" class="responsive-img">
@@ -161,14 +167,16 @@
         </div>
     </div>
 </div>
-    
-    <script>
-        $(document).ready(function(){
-            $('.parallax').parallax();
-        });
-    </script>
-    <h1>Tags for Robert Down FNSA President</h1>    <footer>
-        
+</div>
+<script>
+    $(document).ready(function(){
+        $('.parallax').parallax();
+    });
+</script>
+    <h1>Tags for Robert Down FNSA President</h1>    <footer class="row" style="margin-bottom:0;padding-bottom:20px;">
+        <p class="col s12 text-center">
+            Robert Down, 2016 FNSA Presidential Candidate | Standing for Excellence
+        </p>
     </footer>
 </body>
 </html>

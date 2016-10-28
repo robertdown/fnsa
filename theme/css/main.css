@@ -4477,6 +4477,22 @@ body {
   background-color: #fff;
 }
 
+.main-link {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  margin-bottom: 20px;
+  font-size: 120%;
+  color: #fff;
+  padding: 25px;
+}
+.main-link:hover {
+  background: #005596;
+  color: #fff;
+  text-decoration: none;
+}
+
 .top {
   background-image: url("../imgs/health-fair.jpg");
   height: 100%;
@@ -4608,4 +4624,6 @@ footer {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 200;
   text-transform: uppercase;
+  color: #231F20;
+  border-bottom: 4px double #231F20;
 }
