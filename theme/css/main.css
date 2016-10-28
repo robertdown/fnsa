@@ -1952,17 +1952,17 @@ pre code {
   }
 }
 
-.container-fluid, .main-header, footer {
+.container-fluid, footer {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
-.container-fluid:before, .main-header:before, footer:before, .container-fluid:after, .main-header:after, footer:after {
+.container-fluid:before, footer:before, .container-fluid:after, footer:after {
   content: " ";
   display: table;
 }
-.container-fluid:after, .main-header:after, footer:after {
+.container-fluid:after, footer:after {
   clear: both;
 }
 
@@ -4507,12 +4507,10 @@ body {
   display: inline-block;
   background: rgba(0, 0, 0, 0.15);
 }
-.main-header h1.name {
+.main-header .name {
   font-family: 'Adobe Garamond Pro', Garamond;
-  font-size: 135px;
-  padding: 0px 35px;
 }
-.main-header h1.name a, .main-header h1.name a:visited, .main-header h1.name a:hover {
+.main-header .name a, .main-header .name a:visited, .main-header .name a:hover {
   text-decoration: none;
   color: #fff;
 }
